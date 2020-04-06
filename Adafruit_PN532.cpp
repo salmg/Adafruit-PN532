@@ -77,7 +77,7 @@ byte pn532response_firmwarevers[] = {0x00, 0xFF, 0x06, 0xFA, 0xD5, 0x03};
     #define PN532_SPI_CLOCKDIV SPI_CLOCK_DIV16
 #endif
 
-#define PN532_PACKBUFFSIZ 64
+#define PN532_PACKBUFFSIZ 255
 byte pn532_packetbuffer[PN532_PACKBUFFSIZ];
 
 #ifndef _BV
